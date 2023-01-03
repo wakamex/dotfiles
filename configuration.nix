@@ -51,7 +51,7 @@
       wget
       zlib
       htop
-      steam
+      # steam
       mplayer
       blueman
       gnumake
@@ -69,8 +69,8 @@
     ];
   };
   programs = {
-    steam.enable = true;
-    gamemode.enable = true;
+    #steam.enable = true;
+    #gamemode.enable = true;
   };
   services = {
     blueman.enable = true;
